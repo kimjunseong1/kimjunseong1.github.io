@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+    <div style="display: inline-block; color:red; font-size: xx-large">
+        게임리뷰의 세상
+   </div>
+   <div style="display: inline-block; float: right; color:red"><pre>
+        20191471
+        김준성
+   </pre></div>
+<h3>Two Equal Columns</h3>
+
+<div class="row">
+  <div class="column" >
+    <h4>로스트 아크</h4>
+    <p><img src="lostark.jpg" align="left" width="50%">1. 아이템 레벨아이템 레벨 이라는 것을 처음 봤을 땐 신박하다고 생각 했지만 계속해서 플레이 하다보니 'RPG게임의 본질 중 하나를 흐리게 한다' 는 생각이 들었습니다. RPG의 끝은 각자 생각하기 나름이지만 대표적으로 PvP, 룩딸, 장비스펙 이정도로 볼 수 있습니다. 그리고 장비같은 경우는 얻기위한 노력이나 강화하는 과정에서 장비에 대한 애증이 쌓이기도 합니다. 그런데 이 시스템은 그런 부분을 느끼기에는 부족하다는 생각이 들었습니다. 빛심 세트 전에는 전설 아이템을 먹어도 1레벨 높은 희귀 아이템으로 갈아타는게 일상이었고 빛심 세트에서 주레 유물 세트로 넘어갈때도 현타가 옵니다. 빛심 재료로 연마 다하고 1,200만 실링 박아서 증폭작 다했지만 결국 다 갈아엎고 유물 세트에서도 똑같은 작업을 또 하는 상황이 되어버립니다. 이 짓을 언젠간 나올 만렙까지 계속 해야하는 거겠죠.
+    </p>
+  </div>
+  <div class="column" >
+    <h4>댓글</h4>
+<pre><u>너무 재미있어요 정말로 최고의 게임이에여
+현존하는 rpg중 최강 게임너무즐거워요 
+하면서 시간가는줄모르는게임
+이게임이있어서 정말행복합니다
+너무즐거워요
+너무 행복해요
+사랑스러운 대한민국의 게임임리다 
+그저 빛갓선</u></pre>
+  </div>
+</div>
+
+</body>
+</html>
